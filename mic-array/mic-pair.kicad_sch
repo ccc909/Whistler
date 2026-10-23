@@ -1,0 +1,2947 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e4a68ecf-0d2b-48e2-9bde-81ec83fd561c")
+	(paper "A5")
+	(lib_symbols
+		(symbol "Whistler:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Whistler:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Whistler:IM72D128V01XTMA1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "MK"
+				(at -10.16 10.795 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "IM72D128V01XTMA1"
+				(at -10.16 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Whistler:MIC_IM72D128V01XTMA1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "20 Hz ~ 19 kHz Digital, PDM Microphone MEMS (Silicon) 1.62 V ~ 3.6 V Omnidirectional (-36dB ±1dB @ 94dB SPL) Solder Pads"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Infineon Technologies"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SNAPEDA_PACKAGE_ID" "98215"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "Custom Infineon Technologies"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/IM72D128/Infineon/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "2022-05-05"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/IM72D128/Infineon/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "IM72D128"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Infineon"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.3mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "IM72D128V01XTMA1_0_0"
+				(rectangle
+					(start -10.16 -7.62)
+					(end 10.16 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "DATA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "CLOCK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "SELECT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Whistler:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Place C1-C16 close to VDD"
+		(exclude_from_sim no)
+		(at 104.14 105.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed4e2e9f-478e-436f-aba8-941d4a07a170")
+	)
+	(junction
+		(at 149.86 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24b4aaf4-a202-4b4d-8f97-4dfa47db531c")
+	)
+	(junction
+		(at 91.44 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d8cb5da-a816-495d-a108-c4fc6d42b380")
+	)
+	(wire
+		(pts
+			(xy 63.5 81.28) (xy 63.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "029b0121-d4c0-4b2a-a8a1-4ddd344b47f4")
+	)
+	(wire
+		(pts
+			(xy 91.44 43.18) (xy 91.44 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ea0672-be9c-42b8-ab64-fb46811f05d2")
+	)
+	(wire
+		(pts
+			(xy 149.86 83.82) (xy 149.86 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27de1395-1ecf-4841-b930-2f2b6e67e9c7")
+	)
+	(wire
+		(pts
+			(xy 17.78 15.24) (xy 24.13 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a791fb3-b1a1-4713-9fd8-e31110159dfa")
+	)
+	(wire
+		(pts
+			(xy 101.6 43.18) (xy 91.44 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd8be03-c18b-442e-9f9b-96a6400b9f43")
+	)
+	(wire
+		(pts
+			(xy 17.78 17.78) (xy 24.13 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40815998-bd50-4c07-bb82-f3d070201616")
+	)
+	(wire
+		(pts
+			(xy 63.5 88.9) (xy 63.5 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a04c0a-c834-4d8c-b81e-81a515a83fd0")
+	)
+	(wire
+		(pts
+			(xy 76.2 81.28) (xy 76.2 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568a2d93-c9c1-4b0c-b645-d2ea812175de")
+	)
+	(wire
+		(pts
+			(xy 91.44 62.23) (xy 91.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f31cc80-5978-4f29-87ed-8ed301ad08a6")
+	)
+	(wire
+		(pts
+			(xy 132.08 43.18) (xy 144.78 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6701631d-5275-4fe1-9a0b-6be46afb976d")
+	)
+	(wire
+		(pts
+			(xy 149.86 62.23) (xy 153.67 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6abc779f-f08e-4b2e-bc95-4ff3eb8153af")
+	)
+	(wire
+		(pts
+			(xy 62.23 46.99) (xy 62.23 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78df6cd1-ef61-4c08-bba4-aa721431785e")
+	)
+	(wire
+		(pts
+			(xy 132.08 83.82) (xy 144.78 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb219a6-ed93-487f-aded-3e5ff164b60b")
+	)
+	(wire
+		(pts
+			(xy 91.44 83.82) (xy 101.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ec7ce8-8cc5-4a40-a184-ca5c3b952378")
+	)
+	(wire
+		(pts
+			(xy 149.86 43.18) (xy 149.86 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0602b7a-eeab-4701-a24b-bf2067c0b247")
+	)
+	(wire
+		(pts
+			(xy 17.78 20.32) (xy 24.13 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c3a0e6-fbda-41f6-83db-44d302ec945c")
+	)
+	(wire
+		(pts
+			(xy 85.09 62.23) (xy 91.44 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2617ee4-8db4-4aa4-ab1c-8bf9827153c0")
+	)
+	(wire
+		(pts
+			(xy 76.2 46.99) (xy 76.2 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c8932a-2d63-45b1-a943-f8b61aa8f93f")
+	)
+	(wire
+		(pts
+			(xy 76.2 39.37) (xy 76.2 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04df5a8-a4b8-4bb7-a44d-8a8cd2a1bf8c")
+	)
+	(wire
+		(pts
+			(xy 17.78 22.86) (xy 24.13 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1760f81-ecc3-483a-94fb-e96fe74ff648")
+	)
+	(wire
+		(pts
+			(xy 62.23 39.37) (xy 62.23 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45659c2-596e-403c-8c0d-fe2892806f37")
+	)
+	(wire
+		(pts
+			(xy 76.2 88.9) (xy 76.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb09fdde-0fc2-4666-b551-53b466da6bfe")
+	)
+	(label "CLK"
+		(at 85.09 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b955801-c1e7-45ce-87a9-e2d86d2467f4")
+	)
+	(label "GND"
+		(at 132.08 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "395414ab-91d0-4ed2-b516-1f27a069df34")
+	)
+	(label "MIC2_DATA"
+		(at 133.35 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fd6e1fc-be5f-474e-b394-00ebe4e4295e")
+	)
+	(label "CLK"
+		(at 17.78 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50d30ec6-7f43-46e8-a5a5-00501e41f1d3")
+	)
+	(label "GND"
+		(at 76.2 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50e7abe6-ae70-41a8-8b9a-9ebe611a3e90")
+	)
+	(label "1V8"
+		(at 132.08 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b52359e-f208-4c7d-91b8-d37199f1a975")
+	)
+	(label "GND"
+		(at 101.6 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "653dad8b-3281-4533-a1a2-0b8e34761b88")
+	)
+	(label "DATA"
+		(at 153.67 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "698637c7-3137-4a8e-9da2-0aa23b3c4a7a")
+	)
+	(label "GND"
+		(at 63.5 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bb513cd-4bb2-445b-a691-3afdfd04bc10")
+	)
+	(label "GND"
+		(at 17.78 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e4a934d-f507-4cab-a81c-d2c9bec42c38")
+	)
+	(label "1V8"
+		(at 132.08 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94389f0f-a392-4bbf-9447-7d304c8d7377")
+	)
+	(label "1V8"
+		(at 101.6 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b65e1ab5-192d-4168-8acc-6adc31f2c560")
+	)
+	(label "GND"
+		(at 76.2 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc8fd427-cb67-40c1-9130-4aae65719192")
+	)
+	(label "GND"
+		(at 132.08 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bea87a84-d122-490d-b2ad-d8f6fc3a2267")
+	)
+	(label "1V8"
+		(at 17.78 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c859a2f4-3821-4ff4-99f4-3fc1927cef19")
+	)
+	(label "MIC1_DATA"
+		(at 133.35 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccb5748d-62ad-4aad-ae35-c3762071a820")
+	)
+	(label "DATA"
+		(at 17.78 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e744de5b-da44-4d04-becb-067a4a703ced")
+	)
+	(label "GND"
+		(at 62.23 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec938c77-e97c-470d-93cc-d655cbde0715")
+	)
+	(hierarchical_label "CLK"
+		(shape input)
+		(at 24.13 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3412eb15-f0f2-46d5-93a9-5e4cbe639833")
+	)
+	(hierarchical_label "DATA"
+		(shape input)
+		(at 24.13 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a15f1c5-9d63-44dd-ae15-2dc97961c58a")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 24.13 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de087724-0781-44eb-b09c-6d74d8fab670")
+	)
+	(hierarchical_label "1V8"
+		(shape input)
+		(at 24.13 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea6574b8-3164-4b86-9180-958ecbeac7de")
+	)
+	(symbol
+		(lib_id "Whistler:C_Small")
+		(at 63.5 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2eb4a67d-7daf-44a5-b3c6-6e728f8a15b3")
+		(property "Reference" "C41"
+			(at 66.04 85.0962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 66.04 87.6362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Whistler:C_0402_1005Metric"
+			(at 63.5 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 63.5 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14445"
+			(at 63.5 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d9c6400f-83b4-4d5c-866e-18abab66c69e")
+		)
+		(pin "1"
+			(uuid "5a1de91e-7d3c-4296-b63e-c2689717cec6")
+		)
+		(instances
+			(project "whistler-mic-array"
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/0f97fa0a-962c-4fae-8251-30b308b73a89"
+					(reference "C17")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/24ed829b-4125-41b4-8889-a5c9833e517f"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/5b2f7c30-fc33-4347-8748-d90f46df98e2"
+					(reference "C33")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/87144d3c-c460-4f93-8870-359fd2c0f580"
+					(reference "C41")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/90e118b7-1aa4-4d50-9538-f3a852300298"
+					(reference "C25")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/98d4761e-4108-4cac-8d88-b45e74910b8f"
+					(reference "C29")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/db1dc56f-296b-4120-aaf5-45bd3151b315"
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/ebcd2ed7-eabc-44d2-8219-eddb7c4b8523"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Whistler:IM72D128V01XTMA1")
+		(at 116.84 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43debde9-d4ca-48ad-8d26-efeee6365636")
+		(property "Reference" "MK16"
+			(at 116.84 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IM72D128V01XTMA1"
+			(at 116.84 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Whistler:MIC_IM72D128V01XTMA1"
+			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "20 Hz ~ 19 kHz Digital, PDM Microphone MEMS (Silicon) 1.62 V ~ 3.6 V Omnidirectional (-36dB ±1dB @ 94dB SPL) Solder Pads"
+			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "LCSC" "C5119248"
+			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Infineon Technologies"
+			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" "98215"
+			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Custom Infineon Technologies"
+			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IM72D128/Infineon/view-part/?ref=eda"
+			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "2022-05-05"
+			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IM72D128/Infineon/view-part/?ref=snap"
+			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "IM72D128"
+			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Infineon"
+			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.3mm"
+			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "9c02504d-986d-49a9-970c-2fa82b2b788f")
+		)
+		(pin "2"
+			(uuid "ea4420b2-3f8b-4a00-9a79-3c8026a4f15e")
+		)
+		(pin "5_2"
+			(uuid "35dffc91-dcc6-45a9-a56f-c70cd94b093c")
+		)
+		(pin "1"
+			(uuid "d5ef7bb9-02ae-4e69-ba62-13063925d3fe")
+		)
+		(pin "4"
+			(uuid "aa7744b1-d6e3-4ad8-b277-2beba479cae9")
+		)
+		(pin "5_1"
+			(uuid "6df4d58c-d8f5-499a-a04a-e1aa453271f5")
+		)
+		(instances
+			(project "whistler-mic-array"
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/0f97fa0a-962c-4fae-8251-30b308b73a89"
+					(reference "MK4")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/24ed829b-4125-41b4-8889-a5c9833e517f"
+					(reference "MK6")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/5b2f7c30-fc33-4347-8748-d90f46df98e2"
+					(reference "MK12")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/87144d3c-c460-4f93-8870-359fd2c0f580"
+					(reference "MK16")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/90e118b7-1aa4-4d50-9538-f3a852300298"
+					(reference "MK8")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/98d4761e-4108-4cac-8d88-b45e74910b8f"
+					(reference "MK10")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/db1dc56f-296b-4120-aaf5-45bd3151b315"
+					(reference "MK14")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/ebcd2ed7-eabc-44d2-8219-eddb7c4b8523"
+					(reference "MK2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Whistler:R_Small")
+		(at 147.32 83.82 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "873d7b7f-8976-40c6-8447-eebeadea6163")
+		(property "Reference" "R21"
+			(at 147.32 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 147.32 81.788 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Whistler:R_0402_1005Metric"
+			(at 147.32 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 147.32 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25105"
+			(at 147.32 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5862a7de-d59f-41f0-b887-6212c621aa24")
+		)
+		(pin "1"
+			(uuid "21e70b15-1dc5-4b6e-8ad7-fc8016a33069")
+		)
+		(instances
+			(project "whistler-mic-array"
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/0f97fa0a-962c-4fae-8251-30b308b73a89"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/24ed829b-4125-41b4-8889-a5c9833e517f"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/5b2f7c30-fc33-4347-8748-d90f46df98e2"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/87144d3c-c460-4f93-8870-359fd2c0f580"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/90e118b7-1aa4-4d50-9538-f3a852300298"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/98d4761e-4108-4cac-8d88-b45e74910b8f"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/db1dc56f-296b-4120-aaf5-45bd3151b315"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/ebcd2ed7-eabc-44d2-8219-eddb7c4b8523"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Whistler:+3V3")
+		(at 76.2 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92369780-2513-4012-a4fc-a30493519551")
+		(property "Reference" "#PWR072"
+			(at 76.2 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 76.2 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 76.2 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d704434-b3f0-4246-9f49-4ace1275c406")
+		)
+		(instances
+			(project "whistler-mic-array"
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/0f97fa0a-962c-4fae-8251-30b308b73a89"
+					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/24ed829b-4125-41b4-8889-a5c9833e517f"
+					(reference "#PWR078")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/5b2f7c30-fc33-4347-8748-d90f46df98e2"
+					(reference "#PWR074")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/87144d3c-c460-4f93-8870-359fd2c0f580"
+					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/90e118b7-1aa4-4d50-9538-f3a852300298"
+					(reference "#PWR079")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/98d4761e-4108-4cac-8d88-b45e74910b8f"
+					(reference "#PWR075")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/db1dc56f-296b-4120-aaf5-45bd3151b315"
+					(reference "#PWR073")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/ebcd2ed7-eabc-44d2-8219-eddb7c4b8523"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Whistler:+3V3")
+		(at 62.23 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9363f653-d4cd-49e2-9fcd-64107743b0ed")
+		(property "Reference" "#PWR0103"
+			(at 62.23 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 62.23 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 62.23 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a4525e3-d39c-40ba-9cda-ffa87d1a6042")
+		)
+		(instances
+			(project "whistler-mic-array"
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/0f97fa0a-962c-4fae-8251-30b308b73a89"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/24ed829b-4125-41b4-8889-a5c9833e517f"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/5b2f7c30-fc33-4347-8748-d90f46df98e2"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/87144d3c-c460-4f93-8870-359fd2c0f580"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/90e118b7-1aa4-4d50-9538-f3a852300298"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/98d4761e-4108-4cac-8d88-b45e74910b8f"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/db1dc56f-296b-4120-aaf5-45bd3151b315"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/ebcd2ed7-eabc-44d2-8219-eddb7c4b8523"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Whistler:R_Small")
+		(at 147.32 43.18 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4ddf013-684a-4c31-a3c5-5bccbf94ea2d")
+		(property "Reference" "R20"
+			(at 147.32 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 147.32 41.148 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Whistler:R_0402_1005Metric"
+			(at 147.32 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 147.32 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25105"
+			(at 147.32 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "74ded81d-0409-4891-bdad-2585c7743c8c")
+		)
+		(pin "1"
+			(uuid "bdd9a880-0d3a-4a7c-b975-a1b0889eaaa0")
+		)
+		(instances
+			(project "whistler-mic-array"
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/0f97fa0a-962c-4fae-8251-30b308b73a89"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/24ed829b-4125-41b4-8889-a5c9833e517f"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/5b2f7c30-fc33-4347-8748-d90f46df98e2"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/87144d3c-c460-4f93-8870-359fd2c0f580"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/90e118b7-1aa4-4d50-9538-f3a852300298"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/98d4761e-4108-4cac-8d88-b45e74910b8f"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/db1dc56f-296b-4120-aaf5-45bd3151b315"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/ebcd2ed7-eabc-44d2-8219-eddb7c4b8523"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Whistler:+3V3")
+		(at 76.2 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b517b1f4-1ed3-4680-8a26-eb5a022999d8")
+		(property "Reference" "#PWR064"
+			(at 76.2 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 76.2 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 76.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b3ddecc-cf80-486a-acd8-61f91a81f89e")
+		)
+		(instances
+			(project "whistler-mic-array"
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/0f97fa0a-962c-4fae-8251-30b308b73a89"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/24ed829b-4125-41b4-8889-a5c9833e517f"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/5b2f7c30-fc33-4347-8748-d90f46df98e2"
+					(reference "#PWR066")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/87144d3c-c460-4f93-8870-359fd2c0f580"
+					(reference "#PWR064")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/90e118b7-1aa4-4d50-9538-f3a852300298"
+					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/98d4761e-4108-4cac-8d88-b45e74910b8f"
+					(reference "#PWR067")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/db1dc56f-296b-4120-aaf5-45bd3151b315"
+					(reference "#PWR065")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/ebcd2ed7-eabc-44d2-8219-eddb7c4b8523"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Whistler:C_Small")
+		(at 76.2 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd392e14-5311-44cb-a7a2-c0f04c9c9f13")
+		(property "Reference" "C40"
+			(at 78.74 43.1862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 78.74 45.7262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Whistler:C_0402_1005Metric"
+			(at 76.2 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 76.2 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 76.2 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6f68255-f041-42de-827f-11549323eff1")
+		)
+		(pin "2"
+			(uuid "3a970a48-cf17-4ac6-a91e-ca357fbb813c")
+		)
+		(instances
+			(project "whistler-mic-array"
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/0f97fa0a-962c-4fae-8251-30b308b73a89"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/24ed829b-4125-41b4-8889-a5c9833e517f"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/5b2f7c30-fc33-4347-8748-d90f46df98e2"
+					(reference "C32")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/87144d3c-c460-4f93-8870-359fd2c0f580"
+					(reference "C40")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/90e118b7-1aa4-4d50-9538-f3a852300298"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/98d4761e-4108-4cac-8d88-b45e74910b8f"
+					(reference "C28")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/db1dc56f-296b-4120-aaf5-45bd3151b315"
+					(reference "C36")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/ebcd2ed7-eabc-44d2-8219-eddb7c4b8523"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Whistler:C_Small")
+		(at 76.2 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb5ce57a-28d4-4e86-9946-2fecdc6bbcd9")
+		(property "Reference" "C42"
+			(at 78.74 85.0962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 78.74 87.6362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Whistler:C_0402_1005Metric"
+			(at 76.2 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 76.2 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 76.2 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00612403-7641-4a54-8524-9de97c98454b")
+		)
+		(pin "2"
+			(uuid "8493f3bc-b0b0-4ab0-b03b-dc8670f39c6a")
+		)
+		(instances
+			(project "whistler-mic-array"
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/0f97fa0a-962c-4fae-8251-30b308b73a89"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/24ed829b-4125-41b4-8889-a5c9833e517f"
+					(reference "C22")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/5b2f7c30-fc33-4347-8748-d90f46df98e2"
+					(reference "C34")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/87144d3c-c460-4f93-8870-359fd2c0f580"
+					(reference "C42")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/90e118b7-1aa4-4d50-9538-f3a852300298"
+					(reference "C26")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/98d4761e-4108-4cac-8d88-b45e74910b8f"
+					(reference "C30")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/db1dc56f-296b-4120-aaf5-45bd3151b315"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/ebcd2ed7-eabc-44d2-8219-eddb7c4b8523"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Whistler:IM72D128V01XTMA1")
+		(at 116.84 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec44fcde-a872-46ce-b253-fff8b18a9a76")
+		(property "Reference" "MK15"
+			(at 116.84 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IM72D128V01XTMA1"
+			(at 116.84 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Whistler:MIC_IM72D128V01XTMA1"
+			(at 116.84 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "20 Hz ~ 19 kHz Digital, PDM Microphone MEMS (Silicon) 1.62 V ~ 3.6 V Omnidirectional (-36dB ±1dB @ 94dB SPL) Solder Pads"
+			(at 116.84 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "LCSC" "C5119248"
+			(at 116.84 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Infineon Technologies"
+			(at 116.84 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" "98215"
+			(at 116.84 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Custom Infineon Technologies"
+			(at 116.84 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 116.84 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IM72D128/Infineon/view-part/?ref=eda"
+			(at 116.84 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 116.84 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "2022-05-05"
+			(at 116.84 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IM72D128/Infineon/view-part/?ref=snap"
+			(at 116.84 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "IM72D128"
+			(at 116.84 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Infineon"
+			(at 116.84 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 116.84 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.3mm"
+			(at 116.84 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "8f20ebb9-3510-42a3-bcfc-d0735ca220da")
+		)
+		(pin "2"
+			(uuid "6cf59bb0-64de-453c-9b3e-770aa561c4be")
+		)
+		(pin "5_2"
+			(uuid "153d36ec-87ac-4bf4-993c-4f142ce491c9")
+		)
+		(pin "1"
+			(uuid "4ad9203a-521f-4cee-8eb2-75ced85b0792")
+		)
+		(pin "4"
+			(uuid "0763b5ec-c12b-4526-83a2-c76106a3d15d")
+		)
+		(pin "5_1"
+			(uuid "57788b40-97f9-4016-bd32-76dc398fdf13")
+		)
+		(instances
+			(project "whistler-mic-array"
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/0f97fa0a-962c-4fae-8251-30b308b73a89"
+					(reference "MK3")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/24ed829b-4125-41b4-8889-a5c9833e517f"
+					(reference "MK5")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/5b2f7c30-fc33-4347-8748-d90f46df98e2"
+					(reference "MK11")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/87144d3c-c460-4f93-8870-359fd2c0f580"
+					(reference "MK15")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/90e118b7-1aa4-4d50-9538-f3a852300298"
+					(reference "MK7")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/98d4761e-4108-4cac-8d88-b45e74910b8f"
+					(reference "MK9")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/db1dc56f-296b-4120-aaf5-45bd3151b315"
+					(reference "MK13")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/ebcd2ed7-eabc-44d2-8219-eddb7c4b8523"
+					(reference "MK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Whistler:C_Small")
+		(at 62.23 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0f7e3b8-d878-4fa2-b63a-79a32b741aea")
+		(property "Reference" "C39"
+			(at 64.77 43.1862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 64.77 45.7262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Whistler:C_0402_1005Metric"
+			(at 62.23 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 62.23 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14445"
+			(at 62.23 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ab7e99da-9ef0-460d-9cde-dbe9964db362")
+		)
+		(pin "1"
+			(uuid "c88040af-f5c6-4d9f-85eb-c8ebf5d4c10c")
+		)
+		(instances
+			(project "whistler-mic-array"
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/0f97fa0a-962c-4fae-8251-30b308b73a89"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/24ed829b-4125-41b4-8889-a5c9833e517f"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/5b2f7c30-fc33-4347-8748-d90f46df98e2"
+					(reference "C31")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/87144d3c-c460-4f93-8870-359fd2c0f580"
+					(reference "C39")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/90e118b7-1aa4-4d50-9538-f3a852300298"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/98d4761e-4108-4cac-8d88-b45e74910b8f"
+					(reference "C27")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/db1dc56f-296b-4120-aaf5-45bd3151b315"
+					(reference "C35")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/ebcd2ed7-eabc-44d2-8219-eddb7c4b8523"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Whistler:+3V3")
+		(at 63.5 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f72154ae-da01-4201-ac67-53f11eae85e8")
+		(property "Reference" "#PWR095"
+			(at 63.5 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 63.5 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 63.5 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "502ad64f-2fb5-4ba4-850d-f22fed723bec")
+		)
+		(instances
+			(project "whistler-mic-array"
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/0f97fa0a-962c-4fae-8251-30b308b73a89"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/24ed829b-4125-41b4-8889-a5c9833e517f"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/5b2f7c30-fc33-4347-8748-d90f46df98e2"
+					(reference "#PWR097")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/87144d3c-c460-4f93-8870-359fd2c0f580"
+					(reference "#PWR095")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/90e118b7-1aa4-4d50-9538-f3a852300298"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/98d4761e-4108-4cac-8d88-b45e74910b8f"
+					(reference "#PWR098")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/db1dc56f-296b-4120-aaf5-45bd3151b315"
+					(reference "#PWR096")
+					(unit 1)
+				)
+				(path "/d6530c22-0d94-49bd-a43e-9a1d9de4ff91/ebcd2ed7-eabc-44d2-8219-eddb7c4b8523"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

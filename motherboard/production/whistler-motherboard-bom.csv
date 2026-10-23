@@ -1,0 +1,28 @@
+Comment,Designator,Footprint,LCSC,Quantity,Manufacturer,MPN,Description
+4.7uF,"C17,C46,C59",C_0603_1608Metric,C1705,3,,,"Unpolarized capacitor,Unpolarized capacitor, small symbol"
+100nF,"C18,C25,C26,C27,C28,C29,C30,C31,C32,C33,C34,C35,C36,C39,C40,C41,C42,C43,C44,C45,C47,C48,C49,C50,C53,C56,C57,C58,C60",C_0402_1005Metric,C1525,29,,,"Unpolarized capacitor, small symbol"
+10uF,"C19,C37",C_0603_1608Metric,C96446,2,,,"Unpolarized capacitor,Unpolarized capacitor, small symbol"
+1uF,"C20,C21,C22,C23,C38",C_0402_1005Metric,C52923,5,,,"Unpolarized capacitor, small symbol"
+22uF,C24,C_0603_1608Metric,C109448,1,,,"Unpolarized capacitor, small symbol"
+18pF,"C51,C52",C_0402_1005Metric,C1549,2,,,"Unpolarized capacitor, small symbol"
+LED,D2,LED_0603_1608Metric,C2289,1,,,Light emitting diode
+D_TVS,"D3,D4",D_0402_1005Metric,C558615,2,,,Bidirectional transient-voltage-suppression diode
+750mA,F1,Fuse_1206_3216Metric,C371166,1,,,"Resettable fuse, polymeric positive temperature coefficient, small symbol"
+FerriteBead_Small,FB1,L_0603_1608Metric,C85833,1,,,"Ferrite bead, small symbol"
+USB_C_Receptacle_USB2.0_16P,J1,USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,C3025063,1,,,USB 2.0-only 16P Type-C Receptacle connector
+HX PZ1.27-2x10P ZZ,J2,PinHeader_2x10_P1.27mm_Vertical,C22438125,1,,,"Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+Conn_01x24,J19,Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal,C202112,1,,,"Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)"
+2.2uH,L1,INDC2016X120N,C337893,1,,,"Inductor, small symbol"
+5.1k,"R1,R2",R_0402_1005Metric,C25905,2,,,"Resistor, small symbol"
+49.9k,R3,R_0402_1005Metric,C137969,1,,,"Resistor, small symbol"
+100k,R4,R_0402_1005Metric,C25741,1,,,"Resistor, small symbol"
+680R,R5,R_0402_1005Metric,C25130,1,,,"Resistor, small symbol"
+1M,R6,R_0402_1005Metric,C26083,1,,,"Resistor, small symbol"
+10k,"R7,R8,R9",R_0402_1005Metric,C25744,3,,,"Resistor, small symbol"
+470R,R27,R_0402_1005Metric,C25117,1,,,"Resistor, small symbol"
+TLV62569DBV,U1,SOT-23-5,C141836,1,,,"High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5"
+AP2112K-3.3,U2,SOT-23-5,C23380830,1,,,"600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+AP2112K-1.8,U3,SOT-23-5,C3021123,1,,,"600mA low dropout linear regulator, with enable pin, 2.5V-6V input voltage range, 1.8V fixed positive output, SOT-23-5"
+XU316-1024-TQ128-I24,U4,QFP40P1600X1600X120-129N,C6938291,1,XMOS,XU316-1024-TQ128-I24,XCore xcore.ai Microcontroller IC 32-Bit 16-Core 2400MIPs 8KB (8K x 8) OTP 128-TQFP (14x14)
+W25Q128JWS,U5,SOIC-8_5.3x5.3mm_P1.27mm,C2763561,1,,,"128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+24MHz,Y1,Crystal_SMD_3225-4Pin_3.2x2.5mm,C70590,1,,,"Four pin crystal, GND on pins 2 and 4, small symbol"

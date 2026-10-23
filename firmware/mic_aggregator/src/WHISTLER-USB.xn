@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ============================================================= -->
+<!-- WHISTLER USB board file - 16-ch USB microphone (UAC2).         -->
+<!-- TILE LAYOUT (inverted vs the stock Explorer example):          -->
+<!--   tile[0] = USB stack (USB_TILE=tile[0]) + QSPI boot flash.     -->
+<!--   tile[1] = PDM mics + app-PLL MCLK (datasheet-fixed pins).     -->
+<!-- Mics MUST be on tile[1]: the Whistler PDM pads (1F/8B) and the  -->
+<!-- MCLK pad (1D) are physically on tile[1] (datasheet XM014532A),  -->
+<!-- so USB goes on tile[0]. The xcore.ai USB PHY is a hardened      -->
+<!-- peripheral selected by the USB_TILE build define (not by .xn    -->
+<!-- port decls), so no PORT_USB_* are declared here - lib_xud       -->
+<!-- places them on tile[0] by default.                              -->
+<!-- ============================================================= -->
+<Network xmlns="http://www.xmos.com"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.xmos.com http://www.xmos.com">
+  <Type>Device</Type>
+  <Name>Whistler XU316-1024-TQ128 USB Device</Name>
+
+  <Declarations>
+    <Declaration>tileref tile[2]</Declaration>
+  </Declarations>
+
+  <Packages>
+    <!-- Package/die/oscillator confirmed against XTC targets/XU316-1024-TQ128-C24.xn -->
+    <Package id="0" Type="XS3-UnA-1024-TQ128">
+      <Nodes>
+        <Node Id="0" InPackageId="0" Type="XS3-L16A-1024" Oscillator="24MHz" SystemFrequency="600MHz" ReferenceFrequency="100MHz">
+          <Boot>
+            <Source Location="bootFlash"/>
+          </Boot>
+
+          <!-- ===== TILE 0: USB stack + QSPI boot flash ===== -->
+          <Tile Number="0" Reference="tile[0]">
+            <Port Location="XS1_PORT_1B" Name="PORT_SQI_CS"/>
+            <Port Location="XS1_PORT_1C" Name="PORT_SQI_SCLK"/>
+            <Port Location="XS1_PORT_4B" Name="PORT_SQI_SIO"/>
+
+            <!-- XUA MCLK-count port. NOT a xud.h macro - resolved from this .xn,
+                 must live on the USB tile. xua_wrapper enables it; with the async
+                 feedback EP disabled (UAC_FORCE_FEEDBACK_EP 0) it free-runs/unused. -->
+            <Port Location="XS1_PORT_16B" Name="PORT_MCLK_COUNT"/>
+          </Tile>
+
+          <!-- ===== TILE 1: PDM mics + app-PLL MCLK (datasheet XM014532A) ===== -->
+          <Tile Number="1" Reference="tile[1]">
+            <Port Location="XS1_PORT_8B" Name="PORT_PDM_DATA"/> <!-- X1D14..X1D21, 16 mics DDR -->
+            <Port Location="XS1_PORT_1F" Name="PORT_PDM_CLK"/>  <!-- X1D13 = pin 64 = 1F0 -->
+            <Port Location="XS1_PORT_1D" Name="PORT_MCLK_IN"/>  <!-- X1D11, app-PLL loopback -->
+          </Tile>
+        </Node>
+      </Nodes>
+    </Package>
+  </Packages>
+
+  <!-- xSCOPE / host I/O link so `xrun --io` / `--xscope` work during bring-up. -->
+  <Nodes>
+    <Node Id="2" Type="device:" RoutingId="0x8000">
+      <Service Id="0" Proto="xscope_host_data(chanend c);">
+        <Chanend Identifier="c" end="3"/>
+      </Service>
+    </Node>
+  </Nodes>
+  <Links>
+    <Link Encoding="2wire" Delays="5clk" Flags="XSCOPE">
+      <LinkEndpoint NodeId="0" Link="XL0"/>
+      <LinkEndpoint NodeId="2" Chanend="1"/>
+    </Link>
+  </Links>
+
+  <ExternalDevices>
+    <Device NodeId="0" Tile="0" Class="SQIFlash" Name="bootFlash" PageSize="256" SectorSize="4096" NumPages="32768">
+      <Attribute Name="PORT_SQI_CS"   Value="PORT_SQI_CS"/>
+      <Attribute Name="PORT_SQI_SCLK" Value="PORT_SQI_SCLK"/>
+      <Attribute Name="PORT_SQI_SIO"  Value="PORT_SQI_SIO"/>
+    </Device>
+  </ExternalDevices>
+
+  <JTAGChain>
+    <JTAGDevice NodeId="0"/>
+  </JTAGChain>
+</Network>

@@ -1,0 +1,11 @@
+# KiCad per-user and temporary files
+*.kicad_prl
+*-backups/
+_autosave-*
+*.lck
+fp-info-cache
+\#auto_saved_files\#
+
+# KiCad local history and JLCPCB Tools plugin output
+.history/
+jlcpcb/

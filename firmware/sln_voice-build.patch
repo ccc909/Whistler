@@ -1,0 +1,74 @@
+Whistler build changes to xmos/sln_voice at commit a24cd57 (XMOS Public Licence: Version 1).
+Modified 2026-06-20: build only mic_aggregator and prune modules it does not use.
+Apply from the sln_voice root with: git apply <path>/sln_voice-build.patch
+
+diff --git a/examples/examples.cmake b/examples/examples.cmake
+index 517a507..4956678 100644
+--- a/examples/examples.cmake
++++ b/examples/examples.cmake
+@@ -1,14 +1,16 @@
+ 
+ if(${CMAKE_SYSTEM_NAME} STREQUAL XCORE_XS3A)
+-    include(${CMAKE_CURRENT_LIST_DIR}/speech_recognition/speech_recognition.cmake)
+-    include(${CMAKE_CURRENT_LIST_DIR}/ffva/ffva.cmake)
+-    include(${CMAKE_CURRENT_LIST_DIR}/ffd/bsp_config/bsp_config.cmake)
+-    include(${CMAKE_CURRENT_LIST_DIR}/asrc_demo/asrc_demo.cmake)
+-    include(${CMAKE_CURRENT_LIST_DIR}/ffd/ffd_sensory.cmake)
+-    include(${CMAKE_CURRENT_LIST_DIR}/ffd/ffd_cyberon.cmake)
+-    include(${CMAKE_CURRENT_LIST_DIR}/ffd/ffd_i2s_input_cyberon.cmake)
+-
+-    include(${CMAKE_CURRENT_LIST_DIR}/low_power_ffd/low_power_ffd_sensory.cmake)
++    # WHISTLER: only mic_aggregator is built. The voice/ffd/ffva/asr examples are
++    # commented out - they need lib_voice + xmos-ai-tools (un-installable on Python
++    # 3.13). `git checkout examples/examples.cmake` to restore the full set.
++    # include(${CMAKE_CURRENT_LIST_DIR}/speech_recognition/speech_recognition.cmake)
++    # include(${CMAKE_CURRENT_LIST_DIR}/ffva/ffva.cmake)
++    # include(${CMAKE_CURRENT_LIST_DIR}/ffd/bsp_config/bsp_config.cmake)
++    # include(${CMAKE_CURRENT_LIST_DIR}/asrc_demo/asrc_demo.cmake)
++    # include(${CMAKE_CURRENT_LIST_DIR}/ffd/ffd_sensory.cmake)
++    # include(${CMAKE_CURRENT_LIST_DIR}/ffd/ffd_cyberon.cmake)
++    # include(${CMAKE_CURRENT_LIST_DIR}/ffd/ffd_i2s_input_cyberon.cmake)
++    # include(${CMAKE_CURRENT_LIST_DIR}/low_power_ffd/low_power_ffd_sensory.cmake)
+     include(${CMAKE_CURRENT_LIST_DIR}/mic_aggregator/mic_aggregator.cmake)
+ else()
+     # Determine OS, set up install dir
+diff --git a/modules/CMakeLists.txt b/modules/CMakeLists.txt
+index 8d864e2..6b44e19 100644
+--- a/modules/CMakeLists.txt
++++ b/modules/CMakeLists.txt
+@@ -2,20 +2,20 @@
+ 
+ ## Add frameworks
+ add_subdirectory(core)
+-
+-
+ add_subdirectory(io)
+-add_subdirectory(lib_qspi_fast_read)
+-add_subdirectory(rtos)
+-
+-if(${CMAKE_SYSTEM_NAME} STREQUAL XCORE_XS3A)
+-    ## Need to guard so host targets will not be built
+-    add_subdirectory(voice/lib_voice)
+-    add_subdirectory(sw_pll/lib_sw_pll)
+-endif()
+ 
+-## Add additional modules
+-add_subdirectory(asr)
+-add_subdirectory(audio_pipelines)
+-add_subdirectory(sample_rate_conversion)
+-add_subdirectory(xscope_fileio)
++# WHISTLER: pruned to only what mic_aggregator needs (core = lib_xcore_math,
++# io = lib_mic_array + lib_xud). The voice/asr/audio_pipelines stack is removed
++# because lib_voice's VNR model requires the xmos-ai-tools Python package, which
++# cannot install on Python 3.13 (it pins numpy<2.0, no 3.13 wheel) and which
++# mic_aggregator does not use. `git checkout modules/CMakeLists.txt` to restore.
++# add_subdirectory(lib_qspi_fast_read)
++# add_subdirectory(rtos)
++# if(${CMAKE_SYSTEM_NAME} STREQUAL XCORE_XS3A)
++#     add_subdirectory(voice/lib_voice)
++#     add_subdirectory(sw_pll/lib_sw_pll)
++# endif()
++# add_subdirectory(asr)
++# add_subdirectory(audio_pipelines)
++# add_subdirectory(sample_rate_conversion)
++# add_subdirectory(xscope_fileio)
