@@ -76,6 +76,64 @@ XU316 ($10.04). LCSC doesn't sell the IM72D128 directly, so the mics are priced
 from JLCPCB's parts library. FB11 can be any 0402 ferrite bead of about 600 Ω at
 100 MHz.
 
+<details>
+<summary>Mic array: price per part</summary>
+
+| Part | LCSC | Qty | 1 board | 10 boards | 100 boards |
+|---|---|---|---|---|---|
+| IM72D128 MEMS microphone | C5119248 | 16 | $43.36 | $33.57 | $30.37 |
+| 24-pin FFC connector, Hirose FH12 | C202112 | 1 | $0.52 | $0.47 | $0.42 |
+| TPS7A2018 1.8 V LDO | C963430 | 1 | $1.30 | $0.26 | $0.21 |
+| 74LVC125 buffer | C6057 | 1 | $0.83 | $0.17 | $0.13 |
+| 1 µF capacitor, 0402 | C14445 | 19 | $0.53 | $0.10 | $0.08 |
+| 10 µF capacitor, 0603 | C18800 | 1 | $0.38 | $0.08 | $0.06 |
+| 4.7 µF capacitor, 0603 | C1705 | 4 | $0.64 | $0.06 | $0.05 |
+| 100 nF capacitor, 0402 | C1525 | 17 | $0.36 | $0.06 | $0.05 |
+| LED, 0603 | C12624 | 1 | $0.58 | $0.06 | $0.01 |
+| 33 Ω resistor, 0402 | C25105 | 16 | $0.11 | $0.02 | $0.01 |
+| 22 Ω resistor, 0402 | C25092 | 4 | $0.12 | $0.01 | <$0.01 |
+| 470 Ω resistor, 0402 | C25117 | 1 | $0.12 | $0.01 | <$0.01 |
+| Ferrite bead, 0402 | C96691 | 1 | $0.10 | $0.01 | $0.01 |
+| **Total** | | | **$48.96** | **$34.87** | **$31.40** |
+
+</details>
+
+<details>
+<summary>Motherboard: price per part</summary>
+
+| Part | LCSC | Qty | 1 board | 10 boards | 100 boards |
+|---|---|---|---|---|---|
+| XU316 xcore.ai processor | C6938291 | 1 | $10.36 | $10.04 | $10.04 |
+| W25Q128JW 128 Mbit QSPI flash | C2763561 | 1 | $3.40 | $2.89 | $2.28 |
+| USB-C receptacle, GCT USB4105 | C3025063 | 1 | $1.47 | $1.21 | $0.91 |
+| 24-pin FFC connector, Hirose FH12 | C202112 | 1 | $0.52 | $0.47 | $0.42 |
+| 750 mA resettable fuse, 1206 | C371166 | 1 | $1.08 | $0.22 | $0.17 |
+| 2×10 1.27 mm header, xTAG | C22438125 | 1 | $0.81 | $0.16 | $0.13 |
+| 2.2 µH inductor | C337893 | 1 | $0.78 | $0.16 | $0.13 |
+| 22 µF capacitor, 0603 | C109448 | 1 | $0.76 | $0.15 | $0.13 |
+| AP2112K 3.3 V LDO | C23380830 | 1 | $0.56 | $0.11 | $0.09 |
+| 100 nF capacitor, 0402 | C1525 | 29 | $0.36 | $0.10 | $0.08 |
+| AP2112K 1.8 V LDO | C3021123 | 1 | $0.49 | $0.10 | $0.08 |
+| 24 MHz crystal, 3225 | C70590 | 1 | $0.48 | $0.10 | $0.08 |
+| Ferrite bead, 0603 | C85833 | 1 | $0.92 | $0.09 | $0.02 |
+| 10 µF capacitor, 0603 | C96446 | 2 | $0.87 | $0.09 | $0.07 |
+| TLV62569 buck converter | C141836 | 1 | $0.36 | $0.07 | $0.06 |
+| TVS diode, 0402 | C558615 | 2 | $0.69 | $0.07 | $0.05 |
+| 4.7 µF capacitor, 0603 | C1705 | 3 | $0.64 | $0.06 | $0.04 |
+| 1 µF capacitor, 0402 | C52923 | 5 | $0.64 | $0.06 | $0.03 |
+| LED, 0603 | C2289 | 1 | $0.53 | $0.05 | $0.01 |
+| 18 pF capacitor, 0402 | C1549 | 2 | $0.27 | $0.03 | $0.01 |
+| 5.1 kΩ resistor, 0402 | C25905 | 2 | $0.23 | $0.02 | <$0.01 |
+| 49.9 kΩ resistor, 0402 | C137969 | 1 | $0.22 | $0.02 | <$0.01 |
+| 100 kΩ resistor, 0402 | C25741 | 1 | $0.15 | $0.01 | <$0.01 |
+| 1 MΩ resistor, 0402 | C26083 | 1 | $0.15 | $0.01 | <$0.01 |
+| 680 Ω resistor, 0402 | C25130 | 1 | $0.12 | $0.01 | <$0.01 |
+| 470 Ω resistor, 0402 | C25117 | 1 | $0.12 | $0.01 | <$0.01 |
+| 10 kΩ resistor, 0402 | C25744 | 3 | $0.11 | $0.01 | <$0.01 |
+| **Total** | | | **$27.09** | **$16.34** | **$14.81** |
+
+</details>
+
 ## Project structure
 
 | Folder | Contents |
