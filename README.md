@@ -10,11 +10,13 @@ PCB design files, a BOM and JLCPCB production files, and the firmware.
 |---|---|---|
 | ![Whistler 16-channel circular MEMS microphone array PCB, top view](docs/mic-array-top.png) | ![Whistler XMOS XU316 USB audio motherboard PCB, top view](docs/motherboard-top.png) | ![Whistler XMOS XU316 USB audio motherboard PCB, bottom view](docs/motherboard-bottom.png) |
 
-![Whistler tracking a 3 kHz tone carried in a circle around the array: phone video, direction-of-arrival plot, 16 waveforms and per-mic levels](docs/demo-3khz-circle.gif)
+<p align="center">
+  <img src="docs/demo-3khz-circle.gif" width="720" alt="Whistler tracking a 3 kHz tone carried in a circle around the array: phone video, direction-of-arrival plot, 16 waveforms and per-mic levels">
+</p>
 
-*A phone playing a 3 kHz tone is carried once around the array. Top: the phone
-video and the direction-of-arrival plot. Bottom: the 16 raw channels and each
-mic's level at 3 kHz.*
+<p align="center"><em>A phone playing a 3 kHz tone is carried once around the array.<br>
+Top: the phone video and the direction-of-arrival plot. Bottom: the 16 raw
+channels and each mic's level at 3 kHz.</em></p>
 
 ## Key features
 
@@ -35,8 +37,8 @@ mic's level at 3 kHz.*
 
 ![Spectrogram of a whistle at 125 m outdoors: one microphone vs the 16-mic beamformed output](docs/whistle-125m.png)
 
-*Field test: a whistle blown 125 m away at dusk, with crickets and birds in the
-background. Left: a single mic. Right: all 16 mics beamformed toward it.*
+<p align="center"><em>Field test: a whistle blown 125 m away at dusk, with crickets and birds in
+the background.<br>Left: a single mic. Right: all 16 mics beamformed toward it.</em></p>
 
 ## Microphones
 
