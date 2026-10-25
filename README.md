@@ -10,6 +10,12 @@ PCB design files, a BOM and JLCPCB production files, and the firmware.
 |---|---|---|
 | ![Whistler 16-channel circular MEMS microphone array PCB, top view](docs/mic-array-top.png) | ![Whistler XMOS XU316 USB audio motherboard PCB, top view](docs/motherboard-top.png) | ![Whistler XMOS XU316 USB audio motherboard PCB, bottom view](docs/motherboard-bottom.png) |
 
+![Whistler tracking a 3 kHz tone carried in a circle around the array: phone video, direction-of-arrival plot, 16 waveforms and per-mic levels](docs/demo-3khz-circle.gif)
+
+*A phone playing a 3 kHz tone is carried once around the array. Top: the phone
+video and the direction-of-arrival plot. Bottom: the 16 raw channels and each
+mic's level at 3 kHz.*
+
 ## Key features
 
 - **16 microphones:** Infineon IM72D128 PDM MEMS mics on a 188 mm circle with
@@ -23,6 +29,50 @@ PCB design files, a BOM and JLCPCB production files, and the firmware.
   motherboard, linked by a 24-pin FFC.
 - **Ready to order:** gerbers, a BOM with LCSC numbers, and a JLCPCB
   pick-and-place file for each board.
+- **Measured:** a whistle at 125 m outdoors came through at 39 dB SNR on a
+  single mic and 51 dB with the 16-mic beam, a 12.7 dB array gain. See
+  [docs/measurements.md](docs/measurements.md).
+
+![Spectrogram of a whistle at 125 m outdoors: one microphone vs the 16-mic beamformed output](docs/whistle-125m.png)
+
+*Field test: a whistle blown 125 m away at dusk, with crickets and birds in the
+background. Left: a single mic. Right: all 16 mics beamformed toward it.*
+
+## Microphones
+
+The array uses 16 Infineon [IM72D128V01](https://www.infineon.com/dgdl/Infineon-IM72D128-DataSheet-v01_01-EN.pdf)
+XENSIV PDM MEMS microphones, running at 1.8 V with a 3.072 MHz PDM clock (the
+datasheet's high-performance mode). Key datasheet figures at that setting:
+
+| Parameter | Value |
+|---|---|
+| Signal-to-noise ratio | 72 dB(A) |
+| Sensitivity | −36 dBFS ±1 dB (1 kHz, 94 dB SPL) |
+| Acoustic overload point | 128 dB SPL (10% THD) |
+| Dynamic range | 106 dB |
+| THD | 0.5% at 94 dB SPL |
+| Frequency response | −3 dB at 20 Hz, +3 dB at 19 kHz |
+| Directivity | Omnidirectional |
+| Ingress protection | IP57 (dust and water) |
+| Supply current | 980 µA per mic (typical) |
+| Package | 4 × 3 × 1.2 mm LGA |
+
+## BOM cost
+
+The table gives the parts cost per board in USD, not counting PCBs or assembly.
+Prices were taken from LCSC on 2026-10-25, with each line rounded up to LCSC's
+minimum order:
+
+| | 1 board | 10 boards | 100 boards |
+|---|---|---|---|
+| Mic array | $48.96 | $34.87 | $31.40 |
+| Motherboard | $27.09 | $16.34 | $14.81 |
+| **Both** | **$76.05** | **$51.21** | **$46.21** |
+
+Most of the cost is the 16 microphones ($33.57 per array at 10 boards) and the
+XU316 ($10.04). LCSC doesn't sell the IM72D128 directly, so the mics are priced
+from JLCPCB's parts library. FB11 can be any 0402 ferrite bead of about 600 Ω at
+100 MHz.
 
 ## Project structure
 
@@ -31,7 +81,7 @@ PCB design files, a BOM and JLCPCB production files, and the firmware.
 | [`mic-array/`](mic-array), [`motherboard/`](motherboard) | KiCad 10 projects; ordering files are in each `production/` folder |
 | [`lib/`](lib) | Symbols, footprints and 3D models for both boards |
 | [`firmware/`](firmware) | XU316 firmware: a prebuilt image and its source |
-| [`docs/`](docs) | Renders and [manufacturing notes](docs/manufacturing.md) |
+| [`docs/`](docs) | Renders, [manufacturing notes](docs/manufacturing.md) and [measurements](docs/measurements.md) |
 
 ## Quick start
 

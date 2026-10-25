@@ -24,6 +24,10 @@ Each board's ordering files are in `mic-array/production/` and
 
 - **Motherboard J19 via-in-pad.** Each of the FFC connector's two mounting tabs
   is grounded through four vias in its pad. JLC's DFM check may query them.
+- **Stock (checked 2026-10-25).** The XU316 (C6938291) is out of stock at both
+  LCSC and JLCPCB. Check before ordering, or source it elsewhere and have JLC
+  place it from your own supply. The W25Q128JW flash (C2763561) is running low
+  at JLCPCB (66 left), and everything else is in stock there.
 
 ## Assembly
 
